@@ -1,0 +1,42 @@
+.app-container {
+  text-align: center;
+}
+.board{
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.flex{
+  display: flex;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.letter{
+  border: 1px solid gray;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  text-align: center;
+}
+.button{
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  text-align: center;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+.guessed {
+  display: none;
+}
+.hidden{
+  display: none;
+}
